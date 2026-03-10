@@ -3,7 +3,7 @@ import { Layout, theme } from "antd";
 const { Header } = Layout;
 
 const navbarClass =
-  "text-white text-h5 flex flex-col whitespace-nowrap overflow-hidden text-ellipsis";
+  "text-[#F1F0EC] text-h5 flex flex-col whitespace-nowrap overflow-hidden text-ellipsis";
 const styles = {
   navbarTitleFullSize: navbarClass,
   navbarTitle: navbarClass + " max-w-[calc(100vw-200px)]",
@@ -15,7 +15,7 @@ const NavBar = ({ fullSize }) => {
   return (
     <Header
       data-testid="navbarContainer"
-      className="fixed z-10 flex w-full drop-shadow-md"
+      className="fixed z-10 flex w-full shadow-sm backdrop-blur-md"
       style={{
         backgroundColor: colorPrimary,
         paddingInline: 0,
@@ -25,7 +25,7 @@ const NavBar = ({ fullSize }) => {
         <a href="/">
           <div
             data-testid="navbarLogo"
-            className="h-12 w-48 bg-white text-center"
+            className="h-12 w-48 bg-[#F1F0EC] text-center text-[#4A5568]"
           >
             LOGO
           </div>

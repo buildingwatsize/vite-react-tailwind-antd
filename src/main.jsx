@@ -1,4 +1,3 @@
-import "@ant-design/v5-patch-for-react-19";
 import { ConfigProvider, Watermark } from "antd";
 import thTH from "antd/locale/th_TH";
 import React from "react";
@@ -17,9 +16,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         locale={thTH}
         theme={{
           token: {
-            colorPrimary: "#9E7A68",
-            colorTextBase: "#522a28",
-            colorLink: "#964F4C",
+            colorPrimary: "#4A5568",
+            colorTextBase: "#2D3748",
+            colorLink: "#A0AEC0",
             wireframe: true,
           },
         }}

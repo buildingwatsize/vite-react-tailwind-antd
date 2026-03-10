@@ -17,6 +17,7 @@ export default defineConfig({
       pages: resolve(__dirname, "./src/pages"),
       utils: resolve(__dirname, "./src/utils"),
     },
+    dedupe: ["react", "react-dom"],
   },
   plugins: [react()],
   server: {
