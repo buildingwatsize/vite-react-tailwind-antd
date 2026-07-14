@@ -2,6 +2,14 @@
 
 ## Version History
 
+### [v0.7.1] - `2026-07-14`
+
+- Upgraded `vite` to v8 (major)
+- Upgraded `@vitejs/plugin-react` to v6 (major)
+- Upgraded `react-router` to v8 (major)
+- Upgraded `jsdom` to v29 (major)
+- Updated dependencies
+
 ### [v0.7.0] - `2026-03-10`
 
 - Upgraded `antd` to v6 (major)
@@ -91,6 +99,7 @@
 
 - First time ever, it contains a lot of dir/files but it was needed.
 
+[v0.7.1]: https://github.com/buildingwatsize/vite-react-tailwind-antd/releases/tag/v0.7.1
 [v0.7.0]: https://github.com/buildingwatsize/vite-react-tailwind-antd/releases/tag/v0.7.0
 [v0.6.0]: https://github.com/buildingwatsize/vite-react-tailwind-antd/releases/tag/v0.6.0
 [v0.5.0]: https://github.com/buildingwatsize/vite-react-tailwind-antd/releases/tag/v0.5.0
